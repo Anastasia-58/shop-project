@@ -1,0 +1,192 @@
+.footer {
+    background-image: url(/img/subscribe-background.jpg);
+    z-index: -1;
+
+    .feedback {
+        background: rgba(244, 244, 244, 0.7);
+        min-height: 448px;
+
+        .feedback__list {
+            display: flex;
+            justify-content: space-between;
+
+            .feedback__list-object {
+                text-align: center;
+                width: 359px;
+                padding-top: 98px;
+
+                .list-object__review {
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #222224;
+                    font-family: italic;
+                    padding-top: 30px;
+                }
+
+                .list-object__title {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 167.2%;
+                    text-transform: uppercase;
+                    padding-top: 52px;
+                }
+
+                .list-object__text {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 167.2%;
+                    text-transform: uppercase;
+                }
+
+                .list-object__email {
+                    position: relative;
+                    display: flex;
+                    padding-top: 32px;
+
+                    .list-object__email-write {
+                        background-color: #E1E1E1;
+                        Width: 300px;
+                        Height: 48px;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #222224;
+                        border-radius: 50px 0 0 50px;
+                        border-color: transparent;
+                        padding-left: 22px;
+                    }
+
+                }
+
+                .list-object__subs {
+                    position: absolute;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    border-radius: 0 50px 50px 0;
+                    background-color: $pink-color;
+                    Width: 100px;
+                    Height: 54px;
+                    border-color: transparent;
+                    margin-left: 256px;
+                }
+            }
+        }
+    }
+
+    .copyreight {
+        min-height: 79px;
+        background: #222224;
+        padding-left: 230px;
+        padding-right: 230px;
+        justify-content: space-between;
+        display: flex;
+
+        .copyreight__text {
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(251, 251, 251, 1);
+            padding-top: 30px;
+        }
+
+        .copyreight__list {
+            display: flex;
+            padding-top: 24px;
+
+            .copyreight__list-item {
+                padding-right: 6px;
+            }
+        }
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1599px) {
+    .footer {
+        background-size: cover;
+        .feedback {
+            padding-top: 54px;
+            padding-bottom: 140px;
+            
+            margin: 0 auto;
+
+            .feedback__list {
+           flex-direction: column;
+                display: block;
+                
+                
+                .feedback__list-object{
+                    padding-top: 0px;
+                    margin: 0 auto;
+                    
+                    
+                    
+                    .list-object__review{
+                        padding-bottom: 48px;
+                        
+                    }
+                }
+            }
+        }
+        .copyreight{
+            padding: 0 32px 0 20px;
+        }
+    }
+}
+@media (min-width: 375px) and  (max-width: 767px) {
+    .footer {
+        background-size: cover;
+        .feedback {
+            padding-top: 64px;
+            padding-bottom: 109px;
+            
+            margin: 0 auto;
+
+            .feedback__list {
+           flex-direction: column;
+                display: block;
+                
+                
+                .feedback__list-object{
+                    padding-top: 0px;
+                    margin: 0 auto;
+                    
+                    
+                    
+                    .list-object__review{
+                        padding-bottom: 59px;
+                        font-size: 18px;
+line-height: 22px;
+                        width: 333px;
+                        
+                    }
+                    .list-object__text {
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-transform: uppercase;
+                }
+                    .list-object__email {
+                       .list-object__email-write {
+                        Width: 287px;
+                        Height: 46px;
+                    } 
+                        .list-object__subs {
+                    
+                    Width: 100px;
+                    Height: 52px;
+                    border-color: transparent;
+                    margin-left: 256px;
+                }
+                    }
+                }
+            }
+        }
+        .copyreight{
+            flex-direction: column-reverse;
+            padding: 40px 0 0 0;
+            align-items: center;
+        }
+    }
+    
+}

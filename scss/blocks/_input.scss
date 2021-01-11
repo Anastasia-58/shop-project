@@ -1,0 +1,8 @@
+input[type="radio"] {
+            display: none;
+    input[type="radio"]:checked + .registration__choice::before {
+            background: #F16D7F;
+        }
+        }
+
+        
