@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link rel="stylesheet" href="scss/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -46,7 +46,9 @@
             </ul>
         </div>
         <nav>
-            <ul class="header__nav-list nav-list">
+
+            <ul class="header__nav-list nav-list visually-hidden">
+
                 <li class="nav-list__item">
                     <p class="nav-list__title">menu</p>
                     <a href="#" class="nav-list__link"><div class="nav-list__link-text">men</div></a>
@@ -91,25 +93,32 @@
         <section class="stock container">
             <h2 class="visually-hidden">Акции</h2>
             <ul class="stock__list">
-                <li class="stock__item"> <img class="stock__item-image" src="img/girl-in-dress.png" alt="dress">
+
+                <li class="stock__item stok__item-background1">
+
                     <div class="stock__item-container">
                         <p class="stock__item-name">30% off</p>
                         <p class="stock__item-category">for women</p>
                     </div>
                 </li>
-                <li class="stock__item"> <img class="stock__item-image" src="img/man-in-suit.png" alt="dress">
+
+                <li class="stock__item stok__item-background2">
                     <div class="stock__item-container">
                         <p class="stock__item-name">30% off</p>
                         <p class="stock__item-category">for women</p>
                     </div>
                 </li>
-                <li class="stock__item"> <img class="stock__item-image" src="img/child-in-suit.png" alt="dress">
+
+                <li class="stock__item stok__item-background3">
+
                     <div class="stock__item-container">
                         <p class="stock__item-name">30% off</p>
                         <p class="stock__item-category">for women</p>
                     </div>
                 </li>
-                <li class="stock__item stock__item--last"> <img class="stock__item-image" src="img/shoes.png" alt="dress" height="180">
+
+                <li class="stock__item stock__item--last stok__item-background4">
+
                     <div class="stock__item-container">
                         <p class="stock__item-name">30% off</p>
                         <p class="stock__item-category">for women</p>

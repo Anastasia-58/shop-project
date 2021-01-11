@@ -1,0 +1,114 @@
+.name {
+    display: flex;
+
+    .name__header-span {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    .name__header-span-pink {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        color: $pink-color;
+    }
+
+    .name__header {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+
+    .name__content {
+        width: 100%;
+        padding: 335px 0 0 64px;
+        background-color: $pink-background;
+    }
+
+    .name__header {
+        position: relative;
+        padding: 0 0 0 16px;
+    }
+
+    .name__header::before {
+        position: absolute;
+        content: '';
+        width: 12px;
+        height: 100%;
+        background-color: $pink-color;
+        left: -12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1599px) {
+    .name {
+
+        .name__img {
+            width: 50%;
+            height: auto;
+        }
+
+        .name__content {
+             padding: 13px 0 0 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 138px;
+        }
+
+        .name__header-span {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .name__header-span-pink {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .name__header {
+            font-size: 44px;
+            line-height: 52px;
+        }
+    }
+}
+@media (min-width: 375px) and  (max-width: 767px) {
+    .name {
+        height: 375px;
+        
+
+        .name__img {
+            display: none;
+            
+        }
+
+        .name__content {
+             padding: 13px 0 0 40px;
+            padding-top: 148px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        .name__header-span {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .name__header-span-pink {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        .name__header {
+            font-size: 38px;
+            line-height: 46px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.stock {
+    padding: 63px 0 97px 0;
+
+    @include tablet {
+        padding: 19px 0 155px;
+    }
+
+    .stock__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .stock__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+        height: 260px;
+        text-align: center;
+        color: $white-color;
+        text-transform: uppercase;
+
+        &:not(.stock__item--last) {
+            margin: 0 0 30px;
+            
+            @include tablet {
+                margin: 0 0 19px;
+            }
+        }
+
+        @include tablet {
+            width: 31.5%;
+            
+        }
+    
+    }
+    .stok__item-background1{
+        background: url(/img/girl-in-dress.png), rgba(33, 22, 22, 0.7);
+        background-blend-mode: darken;
+        
+    }
+    .stok__item-background2{
+        background: url(/img/man-in-suit.png), rgba(33, 22, 22, 0.7);
+        background-blend-mode: darken;
+    }
+    .stok__item-background3{
+        background: url(/img/child-in-suit.png), rgba(33, 22, 22, 0.7);
+        background-blend-mode: darken;
+        
+    }
+    .stok__item-background4{
+        background: url(/img/shoes.png) no-repeat, rgba(33, 22, 22, 0.7);
+        background-blend-mode: darken;
+        
+    }
+    
+    .stock__item--last {
+        width: 100%;
+        height: 116px;
+    }
+
+    .stock__item-name {
+        @include font(18px, 22px);
+    }
+
+    .stock__item-category {
+        @include font(24px, 29px, 700);
+        color: $pink-color;
+    }
+}
+@media (min-width: 375px) and  (max-width: 767px) {
+    .stock{
+        padding-top: 64px;
+        padding-bottom: 64px;
+        .stock__item {
+            
+            flex-direction: row;
+            align-content: center;
+            &:not(.stock__item--last){
+                margin: 0 0 32px;
+                width: 343px;
+        height: 248px;
+            }
+        }
+    }
+}

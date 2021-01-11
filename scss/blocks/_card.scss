@@ -1,0 +1,203 @@
+.card {
+    min-height: 998px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+
+    .card__main-good {
+        display: flex;
+        max-height: 306px;
+        max-width: 652px;
+        box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+        position: relative;
+        margin-bottom: 40px;
+
+        .main-good__info {
+            width: 390px;
+            height: 306px;
+
+            .main-good__info-title {
+                text-transform: uppercase;
+                font-size: 24px;
+                line-height: 29px;
+                font-weight: 400;
+                padding-left: 31px;
+                padding-top: 22px;
+                padding-bottom: 42px;
+                max-width: 262px;
+            }
+
+            .main-good__info-cancel {
+                position: absolute;
+                margin-left: 350px;
+                margin-top: -94px;
+            }
+
+            .main-good__info-list {
+                text-decoration: none;
+                padding-left: 31px;
+
+                .info-list__text {
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #575757;
+                }
+
+                .info-list__price {
+                    color: $pink-color;
+                }
+
+                .info-list__quantity {
+                    border: 1px solid #EAEAEA;
+                    color: #656565;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    margin-left: 24px;
+                }
+            }
+        }
+
+        .main-good__photo {
+            height: 306px;
+            width: 262px;
+        }
+    }
+
+    .card__main-transition {
+        margin-top: 72.5px;
+        justify-content: space-between;
+
+        .main-transition__list {
+            display: flex;
+            justify-content: space-between;
+
+            .main-transition__list-item {
+                text-decoration: none;
+            }
+
+            .main-transition__list-button {
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 17px;
+                border: 1px solid #A4A4A4;
+                background-color: transparent;
+                padding: 16.5px 39px 15.5px 40px;
+                &:hover{
+                    color: &white-coclor;
+                    background-color: &pink-coclor;
+                    border-color: &pink-coclor;
+                }
+                &:focus{
+                    color: &white-coclor;
+                    background-color: &pink-coclor;
+                    border-color: &pink-coclor;
+                }
+                &:active{
+                    color: &white-coclor;
+                    background-color: &pink-coclor;
+                    border-color: &pink-coclor;
+                }
+            }
+        }
+    }
+
+    .card__shipping {
+        margin-left: 128px;
+
+        .card__shipping-form {
+            display: block;
+
+            .shipping-form__title {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                color: #222222;
+                padding-bottom: 20.5px;
+                text-transform: uppercase;
+            }
+
+            .shipping-form__write {
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 16px;
+                color: #222222;
+                border: 1px solid #A4A4A4;
+                padding-left: 17px;
+                height: 44px;
+                width: 342px;
+                margin-bottom: 21px;
+            }
+
+            .shipping-form__calc {
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 17px;
+                border: 1px solid #A4A4A4;
+                background-color: transparent;
+                padding: 10px 15px 12px 14px;
+                margin-bottom: 57.5px;
+            }
+        }
+
+        .card__shipping-total {
+            background-color: #F5F3F3;
+            height: 214px;
+            width: 360px;
+
+            .shipping-total__sub {
+                font-size: 13px;
+                line-height: 13px;
+                color: #4A4A4A;
+                text-align: right;
+                text-transform: uppercase;
+                padding-top: 39px;
+                padding-bottom: 12px;
+                padding-right: 34px;
+            }
+
+            .shipping-total__grand {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+                text-align: right;
+                padding-right: 34px;
+                padding-bottom: 21px;
+
+                .shipping-total__grand-pr {
+                    padding-left: 20px;
+                }
+
+                .shipping-total__grand-price {
+                    font-weight: 700;
+                    color: $pink-color;
+                    padding-left: 20px;
+                }
+            }
+
+            .shipping-total__line {
+                padding-left: 43px;
+                padding-bottom: 17px;
+            }
+
+            .shipping-total__checkout {
+                width: 273px;
+                height: 50px;
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                background-color: $pink-color;
+                border-color: $pink-color;
+                margin-left: 44px;
+                
+                
+            }
+        }
+
+
+    }
+}
