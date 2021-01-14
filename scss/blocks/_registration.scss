@@ -1,9 +1,8 @@
 .registration {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 675px;
     padding-top: 64px;
-    padding-left: 230px;
 
 
 
@@ -49,7 +48,7 @@
         .registration__form-input {
             width: 360px;
             height: 45px;
-            border: 1px solid #A4A4A4;
+            border: 1px solid $gray-color;
             display: block;
             margin-bottom: 20px;
             &:hover{
@@ -66,7 +65,7 @@
             font-weight: 300;
             font-size: 13px;
             line-height: 16px;
-            color: #B1B1B1;
+            color: $gray-color;
             max-width: 360px;
             padding-bottom: 39px;
         }
@@ -75,13 +74,13 @@
             font-size: 14px;
             line-height: 17px;
             color: $white-color;
-            background-color: #F16D7F;
+            background-color: $pink-color;
             text-transform: uppercase;
             height: 50px;
             width: 167px;
-            border: 1px solid #F16D7F;
+            border: 1px solid $pink-color;
             &:hover{
-                color: $pink-color;;
+                color: $pink-color;
                 background-color: $white-color;
             }
         }
@@ -104,12 +103,18 @@
                 width: 10px;
                 height: 10px;
                 padding-right: 10px;
-                border: 1px solid #A4A4A4;
+                border: 1px solid $gray-color;
                 border-radius: 50%;
 
             }
 
 
+        }
+        input[type="radio"] {
+            display: none;
+    input[type="radio"]:checked + .registration__choice::before {
+            background: $pink-color;
+        }
         }
     }
 

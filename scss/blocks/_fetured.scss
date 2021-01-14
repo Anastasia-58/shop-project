@@ -11,7 +11,7 @@
     font-weight: 400;
     line-height: 17px;
     margin: 0 0 48px;
-    color: #9F9F9F;
+    color: $gray-color;
 }
 
 .fetured__list {
@@ -19,6 +19,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: left;
+   
 }
 
 .fetured__item {
@@ -87,18 +88,18 @@
 
 
 .fetured__item-button-browse {
-    border: 1px solid #FF6A6A;
+    border: 1px solid $crimson-color;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
+    color: $pink-color;
     padding:  14.5px 38.5px 13.5px 38.5px;
     margin-top: 48.5px;
     margin-bottom: 95.5px;
     background-color: transparent;
 }
 .fetured__item-button-browse:hover, .fetured__item-button-browse:focus{
-    border: 1px solid #FFF;
-    color: #FFF;
+    border: 1px solid $white-color;
+    color: $white-color;
     background-color: $pink-color;
 }
 }
@@ -109,11 +110,18 @@
     }
     }
 }
-@media (min-width: 375px) and  (max-width: 767px) {
+@media (max-width: 767px) {
     .fetured {
         .fetured__text{
       margin: 0 0 16px;  
     }
+        .fetured__list{
+            align-content: center;
+    flex-direction: column;
+        }
+        .fetured__item:not(last-child){
+            margin-bottom: 16px;
+        }
     }
     
 }

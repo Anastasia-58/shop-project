@@ -9,3 +9,5 @@
 [0110/140015.258:ERROR:directory_reader_win.cc(43)] FindFirstFile: Г‘ГЁГ±ГІГҐГ¬ГҐ Г­ГҐ ГіГ¤Г ГҐГІГ±Гї Г­Г Г©ГІГЁ ГіГЄГ Г§Г Г­Г­Г»Г© ГЇГіГІГј. (0x3)
 [0111/010646.460:ERROR:directory_reader_win.cc(43)] FindFirstFile: Г‘ГЁГ±ГІГҐГ¬ГҐ Г­ГҐ ГіГ¤Г ГҐГІГ±Гї Г­Г Г©ГІГЁ ГіГЄГ Г§Г Г­Г­Г»Г© ГЇГіГІГј. (0x3)
 
+[0113/185437.812:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[0114/130029.172:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

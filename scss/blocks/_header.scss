@@ -34,7 +34,7 @@
     display: none;
 }
     .header__nav-list{
-    background-color: #FFF;
+    background-color: $white-color;
     height: 764px;
     width: 232px;
     float: right;
@@ -49,7 +49,7 @@
         } 
     }
 }
-@media (min-width: 375px) and  (max-width: 767px) {
+@media (max-width: 767px) {
     .header {
         .header__container {
             width: 96%;

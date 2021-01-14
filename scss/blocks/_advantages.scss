@@ -1,6 +1,6 @@
 .advantages {
     min-height: 341px;
-    background-color: #222224;
+    background-color: $black-grey-color;
     margin: 0 auto;
 
     .advantages__list {
@@ -23,7 +23,7 @@
                 font-size: 19.96px;
                 font-weight: 400;
                 line-height: 24px;
-                color: #FBFBFB;
+                color: $gray-bkg-color;
                 padding-top: 60px;
                 padding-bottom: 16px;
                 text-align: center;
@@ -34,7 +34,7 @@
                 font-size: 13.972px;
                 line-height: 17px;
                 text-align: center;
-                color: #FBFBFB;
+                color: $gray-bkg-color;
                 text-align: center;
             }
         }
@@ -62,7 +62,7 @@
         }
     }
 }
-@media (min-width: 375px) and  (max-width: 767px) {
+@media (max-width: 767px) {
     .advantages {
         padding-bottom: 34px;
 
