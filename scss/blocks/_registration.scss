@@ -4,8 +4,6 @@
     min-height: 675px;
     padding-top: 64px;
 
-
-
     .registration__benefit-info {
         font-weight: 300;
         font-size: 24px;
@@ -51,11 +49,13 @@
             border: 1px solid $gray-color;
             display: block;
             margin-bottom: 20px;
-            &:hover{
+
+            &:hover {
                 background-color: $pink-background;
                 border-color: $pink-color;
             }
-            &:active{
+
+            &:active {
                 background-color: $pink-background;
                 border-color: $pink-color;
             }
@@ -79,7 +79,8 @@
             height: 50px;
             width: 167px;
             border: 1px solid $pink-color;
-            &:hover{
+
+            &:hover {
                 color: $pink-color;
                 background-color: $white-color;
             }
@@ -105,16 +106,16 @@
                 padding-right: 10px;
                 border: 1px solid $gray-color;
                 border-radius: 50%;
-
             }
 
-
         }
+
         input[type="radio"] {
             display: none;
-    input[type="radio"]:checked + .registration__choice::before {
-            background: $pink-color;
-        }
+
+            input[type="radio"]:checked + .registration__choice::before {
+                background: $pink-color;
+            }
         }
     }
 

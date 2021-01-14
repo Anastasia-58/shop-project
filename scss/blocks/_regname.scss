@@ -1,23 +1,23 @@
-.regname{
+.regname {
     height: 148px;
     background-color: $pink-bkg-color;
-    
+
     .regname__title {
-    font-size: 24px;
-    line-height: 29px;
-    padding-top: 60px;
-    color: $pink-color;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-left: 230px;
-        
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 60px;
+        color: $pink-color;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-left: 230px;
+
         @include tablet {
             margin-left: 16px;
         }
-        
+
         @include phone {
             text-align: center;
             margin-left: 0;
         }
-}
+    }
 }
