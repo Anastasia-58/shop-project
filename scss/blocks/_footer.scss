@@ -19,7 +19,7 @@
                     font-size: 20px;
                     line-height: 24px;
                     text-align: center;
-                    color: #222224;
+                    color: $black-color;
                     font-family: italic;
                     padding-top: 30px;
                 }
@@ -45,12 +45,12 @@
                     padding-top: 32px;
 
                     .list-object__email-write {
-                        background-color: #E1E1E1;
+                        background-color: $light-gray-color;
                         Width: 300px;
                         Height: 48px;
                         font-size: 14px;
                         line-height: 17px;
-                        color: #222224;
+                        color: $black-color;
                         border-radius: 50px 0 0 50px;
                         border-color: transparent;
                         padding-left: 22px;
@@ -62,7 +62,7 @@
                     position: absolute;
                     font-size: 14px;
                     line-height: 17px;
-                    color: #FFFFFF;
+                    color: $white-color;
                     border-radius: 0 50px 50px 0;
                     background-color: $pink-color;
                     Width: 100px;
@@ -76,7 +76,7 @@
 
     .copyreight {
         min-height: 79px;
-        background: #222224;
+        background: $black-color;
         padding-left: 230px;
         padding-right: 230px;
         justify-content: space-between;
@@ -85,7 +85,7 @@
         .copyreight__text {
             font-size: 16px;
             line-height: 19px;
-            color: rgba(251, 251, 251, 1);
+            color: $white-color;
             padding-top: 30px;
         }
 
@@ -134,7 +134,7 @@
         }
     }
 }
-@media (min-width: 375px) and  (max-width: 767px) {
+@media (max-width: 767px) {
     .footer {
         background-size: cover;
         .feedback {
