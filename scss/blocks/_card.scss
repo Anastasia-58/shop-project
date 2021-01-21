@@ -143,51 +143,43 @@
                 display: flex;
                 justify-content: space-between;
 
-                @include tablet {
-                    justify-content: space-around;
+            .main-transition__list-item {
+                text-decoration: none;
+            }
+
+            .main-transition__list-button {
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 17px;
+                border: 1px solid $gray-color;
+                background-color: transparent;
+                padding: 16.5px 39px 15.5px 40px;
+                
+                &:hover {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:focus {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:active {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
                 }
 
                 @include phone {
-                    justify-content: space-around;
+                    font-size: 12px;
+                    line-height: 14px;
+                    padding: 9px 18px;
                 }
 
-                .main-transition__list-item {
-                    text-decoration: none;
-                }
-
-                .main-transition__list-button {
-                    text-transform: uppercase;
-                    font-weight: 300;
-                    font-size: 14px;
-                    line-height: 17px;
-                    border: 1px solid $gray-color;
-                    background-color: transparent;
-                    padding: 16.5px 39px 15.5px 40px;
-
-                    @include phone {
-                        font-size: 12px;
-                        line-height: 14px;
-                        padding: 9px 18px;
-                    }
-
-                    &:hover {
-                        color: &white-coclor;
-                        background-color: &pink-coclor;
-                        border-color: &pink-coclor;
-                    }
-
-                    &:focus {
-                        color: &white-coclor;
-                        background-color: &pink-coclor;
-                        border-color: &pink-coclor;
-                    }
-
-                    &:active {
-                        color: &white-coclor;
-                        background-color: &pink-coclor;
-                        border-color: &pink-coclor;
-                    }
-                }
             }
         }
     }
@@ -234,6 +226,18 @@
                 height: 44px;
                 width: 342px;
                 margin-bottom: 21px;
+
+                &:hover {
+                    background-color: $pink-background;
+                    border-color: $pink-color;
+                    color: $pink-color;
+                }
+
+                &:focus {
+                    background-color: $pink-background;
+                    border-color: $pink-color;
+                    color: $pink-color;
+                }
             }
 
             .shipping-form__calc {
@@ -246,6 +250,24 @@
                 padding: 10px 15px 12px 14px;
                 margin-bottom: 57.5px;
                 color: $gray-text;
+
+                &:hover {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:focus {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:active {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
 
                 @include phone {
                     margin-bottom: 48px;
@@ -313,10 +335,23 @@
                 line-height: 19px;
                 color: $white-color;
                 background-color: $pink-color;
-                border-color: $pink-color;
+                border: 1px solid $pink-color;
                 margin-left: 44px;
 
-
+                &:hover{
+                    background-color: $white-color;
+                    color:$pink-color;
+                }
+                
+                &:focus{
+                    background-color: $white-color;
+                    color:$pink-color;
+                }
+                
+                &:active{
+                    background-color: $white-color;
+                    color:$pink-color;
+                }
             }
         }
 

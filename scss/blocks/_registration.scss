@@ -4,6 +4,15 @@
     min-height: 675px;
     padding-top: 64px;
 
+
+    @include tablet {
+        justify-content: space-between;
+    }
+
+    @include phone {
+        flex-direction: column;
+    }
+
     .registration__benefit-info {
         font-weight: 300;
         font-size: 24px;
@@ -11,6 +20,20 @@
         padding-top: 64px;
         padding-bottom: 22px;
         text-transform: uppercase;
+
+        @include tablet {
+            font-size: 16px;
+            line-height: 19px;
+            padding-left: 22px;
+            padding-top: 0px;
+        }
+
+        @include phone {
+            font-size: 16px;
+            line-height: 19px;
+            padding-left: 0px;
+            padding-top: 40px;
+        }
     }
 
     .registration__benefit-text {
@@ -18,11 +41,29 @@
         font-size: 24px;
         line-height: 29px;
         padding-bottom: 21px;
-        max-width: 652px;
+        width: 652px;
+
+        @include tablet {
+            font-size: 16px;
+            line-height: 19px;
+            width: 354px;
+            padding-left: 22px;
+        }
+
+        @include phone {
+            font-size: 16px;
+            line-height: 19px;
+            width: 354px;
+            padding-left: 0px;
+        }
     }
 
     .registration__benefit-list {
         margin-left: 26px;
+
+        @include tablet {
+            padding-left: 22px;
+        }
 
         .benefit-list__link {
             font-weight: 300;
@@ -31,6 +72,16 @@
             padding-bottom: 16px;
             list-style-image: url(/img/check-mark.svg);
             padding-left: 24px;
+
+            @include tablet {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            @include phone {
+                font-size: 16px;
+                line-height: 19px;
+            }
         }
     }
 
@@ -55,7 +106,7 @@
                 border-color: $pink-color;
             }
 
-            &:active {
+            &:focus {
                 background-color: $pink-background;
                 border-color: $pink-color;
             }
@@ -84,6 +135,16 @@
                 color: $pink-color;
                 background-color: $white-color;
             }
+
+            &:focus {
+                color: $pink-color;
+                background-color: $white-color;
+            }
+
+            &:active {
+                color: $pink-color;
+                background-color: $white-color;
+            }
         }
 
         .registration__form-radio {
@@ -108,15 +169,17 @@
                 border-radius: 50%;
             }
 
-        }
+            input[type="radio"] {
+                display: none;
 
-        input[type="radio"] {
-            display: none;
-
-            input[type="radio"]:checked + .registration__choice::before {
-                background: $pink-color;
+                input[type="radio"]:checked + .form-radio__choice::before {
+                    background: $pink-color;
+                }
             }
+
+
         }
+
     }
 
 }
