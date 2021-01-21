@@ -4,6 +4,7 @@
     min-height: 675px;
     padding-top: 64px;
 
+
     @include tablet {
         justify-content: space-between;
     }
@@ -11,8 +12,6 @@
     @include phone {
         flex-direction: column;
     }
-
-
 
     .registration__benefit-info {
         font-weight: 300;
@@ -168,7 +167,6 @@
                 padding-right: 10px;
                 border: 1px solid $gray-color;
                 border-radius: 50%;
-
             }
 
             input[type="radio"] {
@@ -181,7 +179,6 @@
 
 
         }
-
 
     }
 

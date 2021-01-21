@@ -30,98 +30,101 @@
             box-shadow: 8px 8px 21px rgba(0, 0, 0, 0.13);
         }
 
-        .main-good__info {
-            width: 390px;
-            height: 306px;
+        .main-good {
 
-            @include tablet {
-                width: 62vw;
-            }
+            .main-good__info {
+                width: 390px;
+                height: 306px;
 
-            @include phone {
-                height: 188px;
-                width: 57vw;
-            }
-
-            .main-good__info-title {
-                text-transform: uppercase;
-                font-size: 24px;
-                line-height: 29px;
-                font-weight: 400;
-                padding-left: 31px;
-                padding-top: 22px;
-                padding-bottom: 42px;
-                width: 50%;
-
-                @include phone {
-                    font-size: 16px;
-                    line-height: 20px;
-                    padding-left: 17px;
-                    padding-top: 13px;
-                    padding-bottom: 26px;
-                    width: 63%;
-                }
-            }
-
-            .main-good__info-cancel {
-                position: absolute;
-                margin-left: 350px;
-                top: 28px;
-
-                @include phone {
-                    left: -20px;
-                    top: 20px;
-                    Width: 10px;
-                    Height: 11px;
-                }
-            }
-
-            .main-good__info-list {
-                text-decoration: none;
-                padding-left: 31px;
-
-                @include phone {
-                    padding-left: 17px;
+                @include tablet {
+                    width: 62vw;
                 }
 
-                .info-list__text {
-                    font-size: 22px;
-                    line-height: 26px;
-                    color: $dark-gray-color;
+                @include phone {
+                    height: 188px;
+                    width: 57vw;
+                }
+
+                .main-good__info-title {
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    line-height: 29px;
+                    font-weight: 400;
+                    padding-left: 31px;
+                    padding-top: 22px;
+                    padding-bottom: 42px;
+                    width: 50%;
 
                     @include phone {
-                        font-size: 14px;
-                        line-height: 17px;
+                        font-size: 16px;
+                        line-height: 20px;
+                        padding-left: 17px;
+                        padding-top: 13px;
+                        padding-bottom: 26px;
+                        width: 63%;
                     }
                 }
 
-                .info-list__price {
-                    color: $pink-color;
-                }
-
-                .info-list__quantity {
-                    border: 1px solid $light-gray-bkg;
-                    color: $dark-gray-color;
-                    padding-left: 16px;
-                    padding-right: 16px;
-                    margin-left: 24px;
+                .main-good__info-cancel {
+                    position: absolute;
+                    margin-left: 350px;
+                    top: 28px;
 
                     @include phone {
-                        padding-left: 9px;
-                        padding-right: 9px;
-                        margin-left: 15px;
+                        left: -20px;
+                        top: 20px;
+                        Width: 10px;
+                        Height: 11px;
+                    }
+                }
+
+                .main-good__info-list {
+                    text-decoration: none;
+                    padding-left: 31px;
+
+                    @include phone {
+                        padding-left: 17px;
+                    }
+
+                    .info-list__text {
+                        font-size: 22px;
+                        line-height: 26px;
+                        color: $dark-gray-color;
+
+                        @include phone {
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+                    }
+
+                    .info-list__price {
+                        color: $pink-color;
+                    }
+
+                    .info-list__quantity {
+                        border: 1px solid $light-gray-bkg;
+                        color: $dark-gray-color;
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        margin-left: 24px;
+
+                        @include phone {
+                            padding-left: 9px;
+                            padding-right: 9px;
+                            margin-left: 15px;
+                        }
                     }
                 }
             }
-        }
 
-        .main-good__photo {
-            height: 306px;
-            width: 262px;
+            .main-good__photo {
+                height: 306px;
+                width: 262px;
 
-            @include phone {
-                height: 188px;
-                width: 143px;
+                @include phone {
+                    height: 188px;
+                    width: 143px;
+                }
             }
         }
     }
@@ -134,17 +137,11 @@
             margin-top: 0;
         }
 
-        .main-transition__list {
-            display: flex;
-            justify-content: space-between;
+        .main-transition {
 
-            @include tablet {
-                justify-content: space-around;
-            }
-
-            @include phone {
-                justify-content: space-around;
-            }
+            .main-transition__list {
+                display: flex;
+                justify-content: space-between;
 
             .main-transition__list-item {
                 text-decoration: none;

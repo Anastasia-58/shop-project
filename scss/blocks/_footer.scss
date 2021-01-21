@@ -105,88 +105,96 @@
 @media (min-width: 768px) and (max-width: 1599px) {
     .footer {
         background-size: cover;
+
         .feedback {
             padding-top: 54px;
             padding-bottom: 140px;
-            
+
             margin: 0 auto;
 
             .feedback__list {
-           flex-direction: column;
+                flex-direction: column;
                 display: block;
-                
-                
-                .feedback__list-object{
+
+
+                .feedback__list-object {
                     padding-top: 0px;
                     margin: 0 auto;
-                    
-                    
-                    
-                    .list-object__review{
+
+
+
+                    .list-object__review {
                         padding-bottom: 48px;
-                        
+
                     }
                 }
             }
         }
-        .copyreight{
+
+        .copyreight {
             padding: 0 32px 0 20px;
         }
     }
 }
+
 @media (max-width: 767px) {
     .footer {
         background-size: cover;
+
         .feedback {
             padding-top: 64px;
             padding-bottom: 109px;
-            
+
             margin: 0 auto;
 
             .feedback__list {
-           flex-direction: column;
+                flex-direction: column;
                 display: block;
-                
-                
-                .feedback__list-object{
+
+
+                .feedback__list-object {
                     padding-top: 0px;
                     margin: 0 auto;
-                    
-                    
-                    
-                    .list-object__review{
+
+
+
+                    .list-object__review {
                         padding-bottom: 59px;
                         font-size: 18px;
-line-height: 22px;
+                        line-height: 22px;
                         width: 333px;
-                        
+
                     }
+
                     .list-object__text {
-                    font-size: 14px;
-                    line-height: 22px;
-                    text-transform: uppercase;
-                }
+                        font-size: 14px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                    }
+
                     .list-object__email {
-                       .list-object__email-write {
-                        Width: 287px;
-                        Height: 46px;
-                    } 
+                        .list-object__email-write {
+                            Width: 287px;
+                            Height: 46px;
+                        }
+
                         .list-object__subs {
-                    
-                    Width: 100px;
-                    Height: 52px;
-                    border-color: transparent;
-                    margin-left: 256px;
-                }
+
+                            Width: 100px;
+                            Height: 52px;
+                            border-color: transparent;
+                            margin-left: 256px;
+                        }
                     }
                 }
             }
         }
-        .copyreight{
+
+        .copyreight {
             flex-direction: column-reverse;
             padding: 40px 0 0 0;
             align-items: center;
         }
     }
-    
+
 }
