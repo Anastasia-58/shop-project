@@ -80,16 +80,16 @@
 
         .stock__list {
             flex-direction: column;
-            align-content: center;
+            display: flex;
         }
 
         .stock__item {
-            align-content: center;
 
             &:not(.stock__item--last) {
                 margin: 0 0 32px;
                 width: 343px;
                 height: 248px;
+
             }
         }
     }

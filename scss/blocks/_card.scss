@@ -158,6 +158,24 @@
                 border: 1px solid $gray-color;
                 background-color: transparent;
                 padding: 16.5px 39px 15.5px 40px;
+                
+                &:hover {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:focus {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:active {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
 
                 @include phone {
                     font-size: 12px;
@@ -165,23 +183,6 @@
                     padding: 9px 18px;
                 }
 
-                &:hover {
-                    color: &white-coclor;
-                    background-color: &pink-coclor;
-                    border-color: &pink-coclor;
-                }
-
-                &:focus {
-                    color: &white-coclor;
-                    background-color: &pink-coclor;
-                    border-color: &pink-coclor;
-                }
-
-                &:active {
-                    color: &white-coclor;
-                    background-color: &pink-coclor;
-                    border-color: &pink-coclor;
-                }
             }
         }
     }
@@ -228,6 +229,18 @@
                 height: 44px;
                 width: 342px;
                 margin-bottom: 21px;
+
+                &:hover {
+                    background-color: $pink-background;
+                    border-color: $pink-color;
+                    color: $pink-color;
+                }
+
+                &:focus {
+                    background-color: $pink-background;
+                    border-color: $pink-color;
+                    color: $pink-color;
+                }
             }
 
             .shipping-form__calc {
@@ -240,6 +253,24 @@
                 padding: 10px 15px 12px 14px;
                 margin-bottom: 57.5px;
                 color: $gray-text;
+
+                &:hover {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:focus {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
+
+                &:active {
+                    color: $white-color;
+                    background-color: $pink-color;
+                    border-color: $pink-color;
+                }
 
                 @include phone {
                     margin-bottom: 48px;
@@ -307,10 +338,23 @@
                 line-height: 19px;
                 color: $white-color;
                 background-color: $pink-color;
-                border-color: $pink-color;
+                border: 1px solid $pink-color;
                 margin-left: 44px;
 
-
+                &:hover{
+                    background-color: $white-color;
+                    color:$pink-color;
+                }
+                
+                &:focus{
+                    background-color: $white-color;
+                    color:$pink-color;
+                }
+                
+                &:active{
+                    background-color: $white-color;
+                    color:$pink-color;
+                }
             }
         }
 

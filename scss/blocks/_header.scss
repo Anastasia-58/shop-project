@@ -3,71 +3,82 @@
     position: relative;
     height: 75px;
     z-index: 0;
-    
+
     .header__button {
-    background-color: transparent;
-    border: none;
-    padding: 10px 0 0 0;
-}
+        background-color: transparent;
+        border: none;
+        padding: 10px 0 0 0;
+    }
+
     .header__container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: space-between;
-    z-index: -1;
-}
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+        z-index: -1;
+    }
+
     .header__menu-list {
-    display: flex;
-    align-items: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__logo {
+        margin: 0 41px 0 0;
+    }
+
+    .header__menu-items {
+        color: $white-color;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+
+    .header__menu-item:not(:last-child) {
+        margin: 0 33px 0 0;
+    }
+
+    .header__navigation {
+        position: absolute;
+        display: none;
+    }
+
+    .header__nav-list {
+        background-color: $white-color;
+        height: 764px;
+        width: 232px;
+        float: right;
+        padding-top: 37px;
+        padding-left: 34px;
+    }
 }
 
-.header__logo {
-    margin: 0 41px 0 0;
-}
-
-.header__menu-item:not(:last-child) {
-    margin: 0 33px 0 0;
-}
-
-.header__navigation {
-    position: absolute;
-    display: none;
-}
-    .header__nav-list{
-    background-color: $white-color;
-    height: 764px;
-    width: 232px;
-    float: right;
-    padding-top: 37px;
-    padding-left: 34px;
-}
-}
 @media (min-width: 768px) and (max-width: 1599px) {
     .header {
         .header__container {
             width: 91.5%;
-        } 
+        }
     }
 }
+
 @media (max-width: 767px) {
     .header {
         .header__container {
             width: 96%;
-        } 
-        .header__menu-item:first-child{
+        }
+
+        .header__menu-item:first-child {
             margin: 0 0 0 0;
         }
-        .header__menu-item:nth-child(2){
+
+        .header__menu-item:nth-child(2) {
             display: none;
         }
-        .header__menu-item:nth-child(3){
+
+        .header__menu-item:nth-child(3) {
             display: none;
         }
     }
-    
+
 }
-
-
-
-
-

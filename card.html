@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Card</title>
     <link rel="stylesheet" href="scss/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header size ">
         <div class="container header__container">
@@ -19,6 +20,12 @@
                     </svg>
                 </button>
             </div>
+            <ul class="header__menu-list">
+                <li><a class="header__menu-items" href="./index.html">Index /</a></li>
+                <li class="header__menu-items"><a class="header__menu-items" href="./product.html">Product /</a></li>
+                <li class="header__menu-items"><a class="header__menu-items" href="./registration.html">Registration /</a></li>
+                <li class="header__menu-items"><a class="header__menu-items" href="./card.html">Card</a></li>
+            </ul>
             <ul class="header__menu-list">
                 <li class="header__menu-item">
                     <button class="header__button">
@@ -87,68 +94,68 @@
     </header>
     <main>
         <section class="title regname size clearfix">
-        <h2 class="visually-hidden">Заголов страницы карточки товара</h2>
-        <h3 class="title__card regname__title">shopping cart</h3>  
+            <h2 class="visually-hidden">Заголов страницы карточки товара</h2>
+            <h3 class="title__card regname__title container">shopping cart</h3>
         </section>
         <section class="card container">
-           <h2 class="visually-hidden">Основная информация карточки товара</h2> 
-           <section class="card__main">
-             <h2 class="visually-hidden">Карточки товаров</h2>  
-             <div class="card__main-good main-good">
-                 <img class="main-good__photo" src="./img/man-in-shorts.png" alt="мужчина в шортах" width="262" height="306">
-                 <div class="main-good__info">
-                     <h3 class="main-good__info-title">mango  people t-shirt</h3>
-                     <svg class="main-good__info-cancel" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
-</svg>
-                     <ul class="main-good__info-list info-list">
-                         <li class="info-list__text">Price: <span class="info-list__price">$300</span></li>
-                         <li class="info-list__text">Color: Red</li>
-                         <li class="info-list__text">Size: Xl</li>
-                         <li class="info-list__text">Quantity: <span class="info-list__quantity">2</span></li>
-                     </ul>
-                 </div>
-             </div>
-             <div class="card__main-good main-good">
-                 <img class="main-good__photo" src="./img/man-in-jacket.jpg" alt="мужчина в шортах" width="262" height="306">
-                 <div class="main-good__info">
-                     <h3 class="main-good__info-title">mango  people t-shirt</h3>
-                     <svg class="main-good__info-cancel" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757"/>
-</svg>
-                     <ul class="main-good__info-list info-list">
-                         <li class="info-list__text">Price: <span class="info-list__price">$300</span></li>
-                         <li class="info-list__text">Color: Red</li>
-                         <li class="info-list__text">Size: Xl</li>
-                         <li class="info-list__text">Quantity: <span class="info-list__quantity">2</span></li>
-                     </ul>
-                 </div>
-             </div>
-             <div class="card__main-transition main-transition">
-                 <ul class="main-transition__list">
-                     <li class="main-transition__list-item"><button class="main-transition__list-button">clear shopping cart</button></li>
-                     <li class="main-transition__list-item"><button class="main-transition__list-button">continue shopping</button></li>
-                 </ul>
-             </div>
-           </section>
-           <section class="card__shipping">
-               <h2 class="visually-hidden">Информация по доставке</h2>
-               <form class="card__shipping-form shipping-form">
-                   <h3 class="shipping-form__title">shipping adress</h3>
-                   <input type="text" placeholder="Bangladesh" class="shipping-form__write"> <br>
-                   <input type="text" placeholder="State" class="shipping-form__write"> <br>
-                   <input type="text" placeholder="Postcode / Zip" class="shipping-form__write"> <br>
-                   <button class="shipping-form__calc">get a quote</button> 
-               </form>
-               <div class="card__shipping-total shipping-total">
-                   <p class="shipping-total__sub">sub total         <span class="shipping-total__grand-pr">$900</span></p>
-                   <p class="shipping-total__grand">grand total      <span class="shipping-total__grand-price">$900</span></p>
-                   <img class="shipping-total__line" src="./img/line.png" alt="line">
-                   <button class="shipping-total__checkout">proceed to checkout</button>
-               </div>
-           </section>
+            <h2 class="visually-hidden">Основная информация карточки товара</h2>
+            <section class="card__main">
+                <h2 class="visually-hidden">Карточки товаров</h2>
+                <div class="card__main-good main-good">
+                    <img class="main-good__photo" src="./img/man-in-shorts.png" alt="мужчина в шортах" width="262" height="306">
+                    <div class="main-good__info">
+                        <h3 class="main-good__info-title">mango people t-shirt</h3>
+                        <svg class="main-good__info-cancel" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757" />
+                        </svg>
+                        <ul class="main-good__info-list info-list">
+                            <li class="info-list__text">Price: <span class="info-list__price">$300</span></li>
+                            <li class="info-list__text">Color: Red</li>
+                            <li class="info-list__text">Size: Xl</li>
+                            <li class="info-list__text">Quantity: <span class="info-list__quantity">2</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__main-good main-good">
+                    <img class="main-good__photo" src="./img/man-in-jacket.jpg" alt="мужчина в шортах" width="262" height="306">
+                    <div class="main-good__info">
+                        <h3 class="main-good__info-title">mango people t-shirt</h3>
+                        <svg class="main-good__info-cancel" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#575757" />
+                        </svg>
+                        <ul class="main-good__info-list info-list">
+                            <li class="info-list__text">Price: <span class="info-list__price">$300</span></li>
+                            <li class="info-list__text">Color: Red</li>
+                            <li class="info-list__text">Size: Xl</li>
+                            <li class="info-list__text">Quantity: <span class="info-list__quantity">2</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__main-transition main-transition">
+                    <ul class="main-transition__list">
+                        <li class="main-transition__list-item"><button class="main-transition__list-button">clear shopping cart</button></li>
+                        <li class="main-transition__list-item"><button class="main-transition__list-button">continue shopping</button></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="card__shipping">
+                <h2 class="visually-hidden">Информация по доставке</h2>
+                <form class="card__shipping-form shipping-form">
+                    <h3 class="shipping-form__title">shipping adress</h3>
+                    <input type="text" placeholder="Bangladesh" class="shipping-form__write"> <br>
+                    <input type="text" placeholder="State" class="shipping-form__write"> <br>
+                    <input type="text" placeholder="Postcode / Zip" class="shipping-form__write"> <br>
+                    <button class="shipping-form__calc">get a quote</button>
+                </form>
+                <div class="card__shipping-total shipping-total">
+                    <p class="shipping-total__sub">sub total <span class="shipping-total__grand-pr">$900</span></p>
+                    <p class="shipping-total__grand">grand total <span class="shipping-total__grand-price">$900</span></p>
+                    <img class="shipping-total__line" src="./img/line.png" alt="line">
+                    <button class="shipping-total__checkout">proceed to checkout</button>
+                </div>
+            </section>
         </section>
-            
+
     </main>
     <footer class="footer size">
         <section class="feedback">
@@ -228,4 +235,5 @@
         </section>
     </footer>
 </body>
+
 </html>
