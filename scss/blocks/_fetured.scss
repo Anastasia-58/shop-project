@@ -97,7 +97,6 @@
         margin-top: 48.5px;
         margin-bottom: 95.5px;
         background-color: transparent;
-        transition: background-color 1s transform 1s;
     }
 
     .fetured__item-button-browse:hover,
@@ -105,7 +104,6 @@
         border: 1px solid $white-color;
         color: $white-color;
         background-color: $pink-color;
-        transform: scale(1.1);
     }
 }
 
