@@ -1,4 +1,9 @@
 .slider {
-    height: 737px;
-    z-index: 1;
+    
+    .slider__list{
+        
+        .slider__list-item{
+            z-index: -1;
+        }
+    } 
 }
